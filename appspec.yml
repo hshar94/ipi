@@ -5,4 +5,4 @@ files:
     destination: /opt/tomcat/webapps
 hooks:
   BeforeInstall:
-    - location: Scripts/tomcat.sh
+    - location: scripts/tomcat.sh
