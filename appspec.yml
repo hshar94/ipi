@@ -1,4 +1,4 @@
-version: 0.5
+version: 0.2
 os: linux
 files:
   - source: target/final.war
@@ -6,3 +6,5 @@ files:
 hooks:
   BeforeInstall:
     - location: scripts/tomcat.sh
+      timeout: 300
+      runas: root
